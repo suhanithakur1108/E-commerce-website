@@ -1,16 +1,27 @@
-# React + Vite
+#  Kartly - E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Kartly is a modern, fully responsive e-commerce web application built with React. It allows users to browse products, filter by categories and price, manage a shopping cart, and complete a simulated checkout process. The app integrates Clerk for secure user authentication and uses Context API for efficient state management.
 
-Currently, two official plugins are available:
+##  Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Product Listing**: Browse products fetched from a mock API
+- **Advanced Filtering**: Filter by search query, category, and price range
+- **Shopping Cart**:
+  - Add/remove items
+  - Increase/decrease quantities
+  - Persistent cart using **localStorage**
+- **User Authentication**: Secure login and signup powered by **Clerk**
+- **Protected Routes**: Only authenticated users can access the Cart page
+- **Responsive Design**: Optimized for mobile, tablet, and desktop
+- **Dummy Payment**: Simulated checkout flow with a fake payment modal
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Tech Stack
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React (Vite)
+- **Routing**: React Router DOM
+- **State Management**: React Context API
+- **Authentication**: Clerk
+- **Styling**: Tailwind CSS **Icons**: React Icons (Lucide, Font Awesome, etc.)
+- **Carousel**: React Slick
+- **Notifications**: React Toastify
