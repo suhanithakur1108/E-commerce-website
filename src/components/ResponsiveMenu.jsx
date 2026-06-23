@@ -13,6 +13,16 @@ const ResponsiveMenu = ({ openNav, setOpenNav }) => {
     };
 
     return (
+
+      <>
+            {openNav && (
+                <div 
+                    className='fixed inset-0 z-10 bg-black/50 backdrop-blur-sm md:hidden'
+                    onClick={() => setOpenNav(false)}
+                />
+            )}
+
+
         <div className={`${openNav ? "left-0" : "-left-full"} fixed bottom-0 top-0 z-20 flex h-screen w-[75%] flex-col justify-between bg-white px-8 pb-6 pt-16 text-black md:hidden rounded-r-xl shadow-md transition-all`}>
             <div>
                   <div className='flex items-center justify-start gap-3'>
@@ -47,8 +57,8 @@ const ResponsiveMenu = ({ openNav, setOpenNav }) => {
                     </ul>
                 </nav>
             </div>
-
         </div>
+        </>
     )
 }
 
