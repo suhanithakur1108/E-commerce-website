@@ -9,7 +9,6 @@ const navigate=useNavigate()
   return (
     <div className='bg-[#101829]'>
        <div className='max-w-7xl mx-auto flex flex-wrap gap-4 items-center  justify-around md:justify-center py-7 px-4'>
-        
         {
             categoryOnlyData?.map((item,index)=>{
               return  <div key={index}>
@@ -19,10 +18,6 @@ const navigate=useNavigate()
         }
 
         </div> 
-        
-        
-
-
     </div>
   )
 }
