@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ],
-  "env": {
-    "VITE_CLERK_PUBLISHABLE_KEY": "pk_test_Z3VpZGluZy1zd2FuLTc1LmNsZXJrLmFjY291bnRzLmRldiQ"
-  }
-}
