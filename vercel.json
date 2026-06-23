@@ -1,7 +1,12 @@
 {
   "rewrites": [
+<<<<<<< HEAD
     { "source": "/(.*)", "destination": "/index.html" ,
     "VITE_CLERK_PUBLISHABLE_KEY":"pk_test_Z3VpZGluZy1zd2FuLTc1LmNsZXJrLmFjY291bnRzLmRldiQ"
   
 }]
+=======
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+>>>>>>> 6d091b6cbd0ae6f54009194857e5cdba2f5c0476
 }
