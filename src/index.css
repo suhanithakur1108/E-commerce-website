@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+
+.arrows{
+    height: 40px;
+    width: 40px;
+    margin: 1px;
+}
